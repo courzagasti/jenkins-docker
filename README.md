@@ -19,8 +19,8 @@ Veremos algo similar : srw-rw---- 1 root root 0 Jun 27 20:04 /var/run/docker.soc
 
 # Crear grupo Docker y agregar usuario Jenkins al grupo Docker
 
-addgroup docker
-addgroup jenkins docker
-chgrp docker /var/run/docker.sock
-chmod 660 /var/run/docker.sock
-docker restart jenkinsv1
+# addgroup docker
+# addgroup jenkins docker
+# chgrp docker /var/run/docker.sock
+# chmod 660 /var/run/docker.sock
+# docker restart jenkinsv1
